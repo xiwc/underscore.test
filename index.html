@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <script src="jspm_packages/system.js"></script>
+    <script src="config.js"></script>
+    <script>
+    System.import('underscore').then(function(_) {
+        console.log(_);
+        window._ = _;
+
+        
+    });
+    </script>
+</body>
+
+</html>
